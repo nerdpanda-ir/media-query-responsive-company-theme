@@ -1,0 +1,15 @@
+/*==================== Imports ====================*/
+    @import url("cssReset.css");
+    @import url("class.css");
+    @import url("font.css");
+/*==================== Imports ====================*/
+body {
+    font-family: "robotoThin","iranYekanThin";
+    direction: rtl;
+}
+a{
+    color: inherit;
+}
+::selection {
+    background-color: aqua;
+}

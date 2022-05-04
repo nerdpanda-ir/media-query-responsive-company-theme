@@ -1,0 +1,35 @@
+@keyframes slider {
+    from {
+        background-image: url("../../../img/pic1.jpg");
+    }
+    10% {
+        background-image: url("../../../img/pic2.jpg");
+    }
+    20% {
+        background-image: url("../../../img/pic3.jpg");
+    }
+    30% {
+        background-image: url("../../../img/pic4.jpg");
+    }
+    40% {
+        background-image: url("../../../img/pic5.jpg");
+    }
+    50% {
+        background-image: url("../../../img/pic6.jpg");
+    }
+    60% {
+        background-image: url("../../../img/pic7.jpg");
+    }
+    70% {
+        background-image: url("../../../img/pic8.jpg");
+    }
+    80% {
+        background-image: url("../../../img/pic9.jpg");
+    }
+    90% {
+        background-image: url("../../../img/pic10.jpg");
+    }
+    100% {
+        background-image: url("../../../img/pic11.jpg");
+    }
+}

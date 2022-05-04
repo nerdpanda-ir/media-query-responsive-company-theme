@@ -1,0 +1,33 @@
+@media only screen and (min-width: 577px ) and (max-width: 768px ) {
+    #lastNews article {
+        width: 45% !important;
+        margin-bottom: 35px;
+        margin-left: 3.1% !important;
+    }
+    #lastNews article:first-of-type {
+        margin-right: unset !important ;
+    }
+    #lastNews article:nth-of-type(2n+1){
+        margin-right: 3.1% !important;
+    }
+    #about #aboutContentWrapper h4{
+        font-size: 20px !important;
+    }
+    #about #aboutContentWrapper p{
+        font-size: 14px !important ;
+    }
+    #contact .buttonRow{
+        width: 75% !important ;
+    }
+    .footerCol {
+        margin-left: 1.1% !important ;
+    }
+    .footerCol:last-child {
+        margin-left: 0 !important;
+    }
+    .footerCol {
+        display: block !important ;
+        width: 100% !important ;
+        margin-bottom: 35px ;
+    }
+}

@@ -1,0 +1,48 @@
+@media only screen and ( max-width: 576px ) {
+    #pageHeaderNav {
+        height: auto !important ;
+    }
+    #pageHeaderNav ul:first-of-type{
+        width: 100% !important;
+    }
+    #pageHeaderNav ul:first-of-type li {
+        display: block !important;
+        width: 100%;
+    }
+    #pageHeaderNav ul:first-of-type li:last-child::after {
+        top: 0;
+    }
+    #pageHeaderNav ul:first-of-type li a {
+        padding: 0  !important;
+        text-align: center;
+        width: 100%;
+    }
+    #sliderDescribe h1 {
+        font-size: 20px !important;
+    }
+    #sliderDescribe p {
+        font-size: 15px !important;
+    }
+
+    #lastNews article {
+        display: block !important ;
+        width: 95% !important ;
+        margin: 0 auto !important;
+        margin-bottom: 35px !important;
+        vertical-align: unset !important ;
+    }
+    #about #aboutContentWrapper h4{
+        font-size: 18px !important;
+    }
+    #about #aboutContentWrapper p{
+        font-size: 12px !important ;
+    }
+    #contact .buttonRow{
+        width: 75% !important ;
+    }
+    .footerCol {
+        display: block !important ;
+        width: 100% !important ;
+        margin-bottom: 35px ;
+    }
+}

@@ -1,0 +1,40 @@
+@media only screen and ( min-width: 769px ) and ( max-width: 992px ){
+    #lastNews article {
+        width: 45% !important;
+        margin-bottom: 35px;
+        margin-left: 3.1% !important;
+    }
+    #lastNews article:first-of-type {
+        margin-right: unset !important ;
+    }
+    #lastNews article:nth-of-type(2n+1){
+        margin-right: 3.1% !important;
+    }
+    #about #aboutContentWrapper h4{
+        font-size: 25px !important;
+    }
+    #about #aboutContentWrapper p{
+        font-size: unset !important ;
+    }
+    .footerCol {
+        margin-left: 1.2% !important ;
+    }
+    .footerCol:last-child {
+        margin-left: 0 !important;
+    }
+    .footerCol:first-child p {
+        font-size: 12px  ;
+    }
+    nav.footerCol ul li{
+        margin-left: 12px !important ;
+    }
+    nav.footerCol ul li:first-child {
+        margin-left: 0px !important ;
+    }
+    nav.footerCol ul li a {
+    font-size: 20px !important;
+}
+section.footerCol:last-of-type form input::placeholder {
+    font-size: 10px !important;
+}
+}

@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "iranSansDnNormal";
+    src:
+        url("../../../font/iranSansDn/eot/iransansdn.eot?#iefix") format("eot") , 
+        url("../../../font/iranSansDn/eot/iransansdn.eot") format("eot") , 
+        url("../../../font/iranSansDn/svg/iransansdn.svg") format("svg") , 
+        url("../../../font/iranSansDn/ttf/iransansdn.ttf") format("ttf") ,
+        url("../../../font/iranSansDn/woff/iransansdn.woff") format("woff") ,
+        url("../../../font/iranSansDn/woff2/iransansdn.woff2") format("woff2")
+    ;
+}

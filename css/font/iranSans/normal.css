@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "iranSansNormal";
+    src:
+        url("../../../font/iranSans/eot/IRANSansWeb.eot?#iefix") format("eot") , 
+        url("../../../font/iranSans/eot/IRANSansWeb.eot") format("eot") , 
+        url("../../../font/iranSans/ttf/IRANSansWeb.ttf") format("ttf") , 
+        url("../../../font/iranSans/woff/IRANSansWeb.woff") format("woff") , 
+        url("../../../font/iranSans/woff2/IRANSansWeb.woff2") format("woff2")
+     ;
+}

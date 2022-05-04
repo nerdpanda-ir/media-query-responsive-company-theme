@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "iranYekanLight";
+    src:
+        url("../../../font/iranYekan/eot/IRANYekanWebLight.eot?#iefix") format("eot") , 
+        url("../../../font/iranYekan/eot/IRANYekanWebLight.eot") format("eot") , 
+        url("../../../font/iranYekan/svg/iranyekanweblight.svg") format("svg") , 
+        url("../../../font/iranYekan/ttf/IRANYekanWebLight.ttf") format("ttf") , 
+        url("../../../font/iranYekan/woff/IRANYekanWebLight.woff") format("woff") , 
+        url("../../../font/iranYekan/woff2/IRANYekanWebLight.woff2") format("woff2")
+    ;
+}

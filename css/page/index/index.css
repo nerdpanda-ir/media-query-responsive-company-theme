@@ -1,0 +1,358 @@
+/*==================== Imports ====================*/
+    @import url("../../library/bootstrap.css");
+    @import url("animations.css");
+    @import url("responsive.xsm.css");
+    @import url("responsive.sm.css");
+    @import url("responsive.md.css");
+    @import url("responsive.lg.css");
+    @import url("responsive.xlg.css");
+    @import url("responsive.css");
+/*==================== Imports ====================*/
+#pageHeaderNav {
+    background-color: #252525;
+    height: 60px ;
+    overflow: hidden;
+    position: sticky ;
+}
+#pageHeaderNav > ul:first-of-type {
+    height: inherit ;
+    width: fit-content;
+    margin: 0 auto;
+}
+#pageHeaderNav > ul:first-of-type li {
+    display: inline-block ;
+    height: inherit ;
+    margin-left: 15px;
+}
+#pageHeaderNav > ul:first-of-type li:last-child {
+    margin-left: 0;
+}
+#pageHeaderNav > ul:first-of-type li::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: red;
+    display: block ;
+    position: relative ;
+    bottom: 2px;
+    margin: 0 auto ;
+    transition: width 450ms linear ;
+}
+#pageHeaderNav > ul:first-of-type li:hover::after {
+    width: 100% ;
+}
+#pageHeaderNav > ul:first-of-type li a {
+    display: inline-block;
+    height: inherit;
+    line-height: 60px;
+    color: white;
+    font-family: iranYekanRegular;
+    padding: 0 15px ;
+}
+#headerSlider {
+    height: 566px;
+    background-image: url("../../../img/pic1.jpg");
+    background-size: 100% 100% ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    animation-name: slider ;
+    animation-delay: 0ms ;
+    animation-duration: 50s ;
+    animation-iteration-count: infinite ;
+    animation-timing-function: linear ;
+    animation-direction: alternate ;
+}
+#sliderDescribe{
+    color: white;
+}
+#sliderDescribe {
+    border-radius: 3px;
+    position: absolute;
+    background-color: rgba(0,0,0,0.7 );
+    box-sizing: border-box;
+    padding: 25px ;
+    width: 80% ;
+    left: 10% ;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+#sliderDescribe h1 {
+    font-family: "iranYekanMedium";
+    font-size: 25px;
+}
+#sliderLoading {
+    position: absolute;
+    bottom: 0 ;
+    width: 0%;
+    height: 5px ;
+    background-color: #ff164a;
+    animation-name: increaseWith ;
+    animation-delay: 3000ms ;
+    animation-duration: 4500ms ;
+    animation-timing-function: linear ;
+    animation-iteration-count: infinite ;
+    left: 0;
+}
+#sliderDescribe p {
+    font-family: "iranYekanLight";
+    font-size: 18px;
+    margin-top: 15px;
+}
+#lastNews{
+    margin: 25px 0px;
+}
+#lastNews article{
+    width: 23% ;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 1.4%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#lastNews article:first-of-type{
+    margin-right: 1.4%;
+}
+#lastNews article header{
+    height: 300px;
+    border-radius: 3px 3px 0 0;
+    overflow: hidden ;
+}
+#lastNews article header img{
+    width: 100%;
+    height: 100%;
+    border-radius: 3px 3px 0 0;
+    transition: transform 666ms linear , filter 450ms linear 667ms ;
+    filter: grayscale(100%);
+}
+#lastNews article:hover header img {
+    transform: scale(1.5,1.5);
+    filter: grayscale(0%);
+}
+#lastNews article main {
+    margin: 20px 0;
+    box-sizing: border-box ;
+    padding: 0 15px;
+}
+#lastNews article main h3 {
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: "iranYekanRegular";
+}
+#lastNews article main p {
+    overflow: hidden;
+    box-sizing: border-box;
+    text-indent: 25px ;
+}
+#lastNews article footer {
+    text-align: center;
+    height: 35px;
+    background: #f2f2f2;
+    font-family: "iranYekanRegular";
+    color: #444;
+  }
+  #lastNews article footer a {
+      display: inline-block;
+      width: 100% ;
+  }
+  #about {
+      background-image: url("../../../img/about.jpg");
+      background-repeat: no-repeat ;
+      background-size: 100% 100% ;
+      background-attachment: fixed ;
+      margin-top: 35px ;
+      padding: 90px 0 ;
+  }
+  #about #aboutContentWrapper{
+      background-color: rgba(0, 0, 0 , 0.8 );
+      color: white ;
+      box-sizing: border-box ;
+      padding: 30px ;
+      width: 95% ;
+      margin: 0 auto;
+      border-radius: 3px ;
+      transition :  background-color 350ms linear ;
+  }
+  #about:hover #aboutContentWrapper {
+      background-color: rgba(0, 0, 0 , 1 );
+  }
+  #about #aboutContentWrapper h4 {
+        font-size: 35px ;
+        font-family: "iranYekanBold";
+        text-indent: 120px;
+  }
+  #about #aboutContentWrapper p {
+    font-size: 18px ;
+    font-family: "iranYekanMedium";
+    text-indent: 60px ;
+}
+  #contact {
+      width: 80%;
+      margin: 35px auto;
+  }
+  .fieldRow{
+    position: relative;
+    margin-bottom: 30px ;
+  }
+  .fieldRow label {
+      position: absolute;
+      bottom: 3px ;
+      transition: bottom 444ms linear;
+  }
+  .messageFieldWrapper label {
+      bottom: 29px ;
+  }
+  .fieldRow input , .fieldRow textarea {
+      border: unset ;
+      border-bottom: 2px solid #575757;
+      width: 100%;
+      padding: 0 ;
+      font-family: inherit ;
+
+  }
+  .fieldRow:first-child input {
+    text-indent: 47px;
+  }
+  .fieldRow:first-child input:focus {
+      text-indent: 0 ;
+  }
+  .fieldRow:nth-of-type(2) input {
+    text-indent: 65px;
+  }
+  .fieldRow:nth-of-type(2) input:focus {
+    text-indent:  0 ;
+  }
+  .fieldRow:nth-of-type(3) textarea {
+    text-indent: 68px;
+  }
+  .fieldRow:nth-of-type(3) textarea:focus {
+    text-indent: 0px;
+  }
+  .fieldRow input:focus , .fieldRow textarea:focus {
+    outline: unset ;
+  }
+  .fieldRow textarea {
+      resize: none ;
+  }
+
+  .fieldRow .fieldBorder {
+    position: relative;
+    bottom: 6px ;
+   background-color: rgb(240, 45, 61);
+   height: 2px;
+   width: 0px ;
+   margin: 0 auto;
+   transition: width 400ms linear ;
+}
+.messageFieldWrapper .fieldBorder {
+    bottom: 10px ;
+}
+
+.fieldRow textarea:focus + .fieldBorder , .fieldRow input:focus + .fieldBorder  {
+    width: 100%;
+}
+.fieldRow input:focus + .fieldBorder + label {
+    bottom: 20px ;
+}
+.fieldRow textarea:focus + .fieldBorder + label {
+    bottom: 50px ;
+}
+.buttonRow{
+    width: 50% ;
+    margin: 0 auto;
+}
+.buttonRow button {
+    width: 95px;
+    height: 50px;
+    line-height: 50px;
+    border: unset ;
+    border-radius: 3px ;
+    color: white;
+    font-family: "iranYekanRegular";
+    font-size: 18px;
+}
+.buttonRow button:hover{
+    cursor: pointer ;
+}
+.buttonRow button i {
+    margin-left: 4px ;
+}
+.buttonRow button:first-of-type {
+    background-color: rgb(25, 224, 115);
+    float: right ;
+}
+.buttonRow button:last-of-type {
+    background-color: rgb(224, 25, 75);
+    float: left  ;
+}
+footer {
+    background-color: black ;
+    color: white ;
+    font-family: "iranYekanRegular";
+}
+
+footer h5 {
+    font-family: "iranYekanBlack";
+    margin-bottom: 16px ;
+}
+.footerCol{
+    width: 32% ;
+    display: inline-block ;
+    vertical-align: top ;
+    margin-left: 1.5% ;
+    padding: 15px ;
+    box-sizing: border-box ;
+}
+.footerCol:last-child {
+    margin-left: 0 ;
+}
+.footerCol:first-child p {
+    text-indent: 16px ;
+    text-align: justify ;
+}
+nav.footerCol ul {
+    width: fit-content;
+    margin: 0 auto;
+    direction: ltr ;
+}
+nav.footerCol ul li {
+    display: inline-block;
+    margin-left: 15px ;
+}
+nav.footerCol ul li:first-child {
+    margin-left: 0px ;
+}
+nav.footerCol ul li a {
+    font-size: 30px ;
+    transition: color 450ms linear ;
+}
+nav.footerCol ul li a:hover {
+    color: #ff164a;
+}
+section.footerCol:last-of-type form input {
+    height: 35px ;
+    background-color: rgba(255, 255 , 255 , 0.1);
+    border-radius: 3px ;
+    color: white ;
+    text-indent: 10px  ;
+}
+section.footerCol:last-of-type form .fieldBorder {
+    bottom: 2px ;
+    border-radius: 3px ;
+}
+section.footerCol:last-of-type form .buttonRow {
+    width: 100% ;
+    text-align: center  ;
+}
+section.footerCol:last-of-type form .buttonRow button {
+    width: fit-content ;
+    float: none ;
+    padding: 0 15px ;
+    background-color: goldenrod;
+}
+footer .copyRight{
+    text-align: center ;
+    height: 50px ;
+    line-height: 50px ;
+}

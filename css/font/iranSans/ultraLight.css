@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "iranSansUltraLight";
+    src:
+        url("../../../font/iranSans/eot/IRANSansWeb_UltraLight.eot?#iefix") format("eot") , 
+        url("../../../font/iranSans/eot/IRANSansWeb_UltraLight.eot") format("eot") , 
+        url("../../../font/iranSans/ttf/IRANSansWeb_UltraLight.ttf") format("ttf") , 
+        url("../../../font/iranSans/woff/IRANSansWeb_UltraLight.woff") format("woff") , 
+        url("../../../font/iranSans/woff2/IRANSansWeb_UltraLight.woff2") format("woff2")
+     ;
+}

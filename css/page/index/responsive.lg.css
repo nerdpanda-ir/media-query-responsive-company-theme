@@ -1,0 +1,23 @@
+@media only screen and ( min-width: 993px ) and ( max-width: 1200px ) {
+    #lastNews article {
+        margin-left: 1.3%  !important ;
+    }
+    #lastNews header {
+        height: 250px !important;
+    }
+    #lastNews main {
+        font-size: 14px ;
+    }
+    .footerCol {
+        margin-left: 1.4% !important ;
+    }
+    .footerCol:last-child {
+        margin-left: 0 !important;
+    }
+    .footerCol:first-child p {
+        font-size: 14px  ;
+    }
+    section.footerCol:last-of-type form input::placeholder {
+        font-size: 10px !important;
+    }
+}

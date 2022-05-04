@@ -1,0 +1,97 @@
+/*=============== font classes ===============*/
+    .font-iranSansBlack {
+        font-family: "iranSansBlack";
+    }
+    .font-iranSansBold{
+        font-family: "iranSansBold";
+    }
+    .font-iranSansLight {
+        font-family: "iranSansLight";
+    }
+    .font-iranSansMedium{
+        font-family: "iranSansMedium";
+    }
+    .font-iranSansNormal{
+        font-family: "iranSansNormal";
+    }
+    .font-iranSansUltraLight {
+        font-family: "iranSansUltraLight";
+    }
+    .font-iranSansDnBold{
+        font-family: "iranSansDnBold";
+    }
+    .font-iranSansDnLight{
+        font-family: "iranSansDnLight";
+    }
+    .font-iranSansDnNormal{
+        font-family: "iranSansDnNormal";
+    }
+    .font-robotoBlack{
+        font-family: "robotoBlack";
+    }
+    .font-robotoBlackItalic{
+        font-family: "robotoBlackItalic";
+    }
+    .font-robotoBold{
+        font-family: "robotoBold";
+    }
+    .font-robotoBoldItalic{
+        font-family: "robotoBoldItalic";
+    }
+    .font-robotoItalic{
+        font-family: "robotoItalic";
+    }
+    .font-robotoLight{
+        font-family: "robotoLight";
+    }
+    .font-robotoLightItalic{
+        font-family: "robotoLightItalic";
+    }
+    .font-robotoMedium{
+        font-family: "robotoMedium";
+    }
+    .font-robotoMediumItalic{
+        font-family: "robotoMediumItalic";
+    }
+    .font-robotoRegular{
+        font-family: "robotoRegular";
+    }
+    .font-robotoThin{
+        font-family: "robotoThin";
+    }
+    .font-robotoThinItalic{
+        font-family: "robotoThinItalic";
+    }
+    .font-iranYekanBlack{
+        font-family: "iranYekanBlack";
+    }
+    .font-iranYekanBold{
+        font-family: "iranYekanBold";
+    }
+    .font-iranYekanExtraBlack{
+        font-family: "iranYekanExtraBlack";
+    }
+    .font-iranYekanExtraBold{
+        font-family: "iranYekanExtraBold";
+    }
+    .font-iranYekanLight{
+        font-family: "iranYekanLight";
+    }
+    .font-iranYekanMedium{
+        font-family: "iranYekanMedium";
+    }
+    .font-iranYekanRegular{
+        font-family: "iranYekanRegular";
+    }
+    .font-iranYekanThin{
+        font-family: "iranYekanThin";
+    }
+/*=============== font classes ===============*/
+
+.clear{
+    clear: both ;
+}
+.container {
+    width: 85% ;
+    margin:  0 auto ;
+}
